@@ -14,3 +14,16 @@ added streamlit $ uv add streamlit
 created .venv and added huddingface and groq api keys 
 created .gitignore to hide secrets from being pushed to github 
 created data/ directory and added the medical encyclopedia pdf 
+created a jupyter notebook to test and document each step for create_memory_for_llm.py
+    creating_memory_for_llm.ipynb
+    - import environment variables 
+    - loading the pdf , extracting pdf (got an import error , so i installed pypdf )
+    - chunking 
+    - embeddings (got an module not found error for langchain_huggingface , so i did pip install in jupyter notebook)
+    - building and saving FAISS index 
+
+
+
+problems faced 
+- the PyPDFLoader function , needs pypdf installed to run , which was not downloaded , it raised an import error and module not found error 
+- 
