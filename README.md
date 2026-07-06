@@ -29,6 +29,9 @@ now we create a notebook for retrieval phase - retrieval_qa.py
     - bring in the LLM ( initializing the LLM )
     - retrieval + generation 
     - tested if its working fine 
+created medibot.py and used streamlit to generate an ui for the model and integrated the model to the ui 
+used black to format the code to pep-8 convention 
+
 
 problems faced 
 - the PyPDFLoader function , needs pypdf installed to run , which was not downloaded , it raised an import error and module not found error 
